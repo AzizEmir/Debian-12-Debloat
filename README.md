@@ -1,3 +1,11 @@
+# Usage / Kullanım
+
+```shell
+wget https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/main/debian12debloat.sh
+sudo chmod +x debian12debloat.sh
+sudo ./debian12debloat.sh
+```
+
 # Script Purpose
 
 This Bash script is designed to remove specific software packages from a Debian-based Linux system. It targets a predefined list of packages associated with GNOME games and utilities. Additionally, it attempts to clean up residual dependencies after the removal process.
@@ -27,11 +35,3 @@ Silnen Paketler / Deleted packages
 17. tali
 18. gnome-taquin
 19. gnome-tetravex
-
-# Usage / Kullanım
-
-```shell
-wget https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/main/debian12debloat.sh
-sudo chmod +x debian12debloat.sh
-sudo ./debian12debloat.sh
-```
