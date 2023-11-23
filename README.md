@@ -31,7 +31,7 @@ Silnen Paketler / Deleted packages
 # Usage / Kullanım
 
 ```shell
-wget https://github.com/AzizEmir/Debian-12-Debloat/blob/main/debian12debloat.sh
+wget https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/main/debian12debloat.sh
 sudo chmod +x debian12debloat.sh
 ./debian12debloat.sh
 ```
