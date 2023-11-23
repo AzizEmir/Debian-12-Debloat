@@ -27,3 +27,11 @@ Silnen Paketler / Deleted packages
 17. tali
 18. gnome-taquin
 19. gnome-tetravex
+
+# Usage / Kullanım
+
+```shell
+wget https://github.com/AzizEmir/Debian-12-Debloat/blob/main/debian12debloat.sh
+sudo chmod +x debian12debloat.sh
+./debian12debloat.sh
+```
