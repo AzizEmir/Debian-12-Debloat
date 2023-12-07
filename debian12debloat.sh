@@ -75,7 +75,7 @@ else
 
     print_message "Kalıntı Bağımlılıklar Siliniyor" \
         "Removing Residual Dependencies"
-    if apt autoremove >/dev/null 2>&1; then
+    if apt autoremove -y>/dev/null 2>&1; then
         print_message "Kalıntılar silindi" \
             "Residual dependencies removed"
     fi
