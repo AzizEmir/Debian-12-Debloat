@@ -2,8 +2,7 @@
 
 ```shell
 wget https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/main/debian12debloat.sh
-sudo chmod +x debian12debloat.sh
-sudo ./debian12debloat.sh
+sudo bash debian12debloat.sh
 ```
 
 # Script Purpose
