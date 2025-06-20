@@ -1,36 +1,81 @@
-# Usage / Kullanım
+# Improved-Debian-12-Debloat
+> Inspired from (Debian-12-Debñoat)[https://github.com/AzizEmir/Debian-12-Debloat] by the user [AzizEmir](https://github.com/AzizEmir)
 
-```shell
-wget https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/main/debian12debloat.sh
-sudo bash debian12debloat.sh
-```
-
-# Script Purpose
+## Remove all unnecesary GNOME packages installed by default
 
 This Bash script is designed to remove specific software packages from a Debian-based Linux system. It targets a predefined list of packages associated with GNOME games and utilities. Additionally, it attempts to clean up residual dependencies after the removal process.
 
-# Genel Amaç
+## Usage 
+```shell
+git clone https://github.com/hugorsz-dev/Improved-Debian-12-Debloat.git
+cd Improved-Debian-12-Debloat
+sudo ./debian12debloat.sh
+```
+## Packages to remove
 
-Bu Bash betiği, Debian tabanlı bir Linux sisteminden belirli yazılım paketlerini kaldırmak için tasarlanmıştır. Önceden belirlenmiş bir GNOME oyunları ve yardımcı programları listesini hedef alır. Ayrıca, kaldırma işleminden sonra kalan bağımlılıkları temizlemeye çalışır.
+**The user has the option of selecting the group of packages to uninstall from the following:**
 
 
-Silnen Paketler / Deleted packages
-1. gnome-2048
-2. aisleriot
-3. gnome-nibbles
-4. five-or-more
-5. four-in-a-row
-6. hitori
-7. lightsoff
-8. gnome-klotski
-9. gnome-mahjongg
-10. gnome-mines
-11. quadrapassel
-12. iagno
-13. gnome-robots
-14. gnome-chess
-15. gnome-sudoku
-16. swell-foop
-17. tali
-18. gnome-taquin
-19. gnome-tetravex
+- Delete all gnome games
+  - gnome-2048
+  - aisleriot
+  - gnome-nibbles
+  - five-or-more
+  - four-in-a-row
+  - hitori
+  - lightsoff
+  - gnome-klotski
+  - gnome-mahjongg
+  - gnome-mines
+  - quadrapassel
+  - iagno
+  - gnome-robots
+  - gnome-chess
+  - gnome-sudoku
+  - swell-foop
+  - tali
+  - gnome-taquin
+  - gnome-tetravex
+
+- Delete all gnome info packages
+  - gnome-weather
+  - yelp
+  - gnome-maps
+  - gnome-characters
+  - gnome-font-viewer
+
+- Delete all gnome productivity packages
+  - evolution
+  - gnome-clocks
+  - gnome-calendar
+  - gnome-calculator
+  - gnome-contacts
+
+- Delete all gnome bloat multimedia packages
+  - gnome-music
+  - rhythmbox
+  - shotwell
+  - simple-scan
+  - gnome-sound-recorder
+
+- Delete all gnome bloat system packages
+  - seahorse
+  - gnome-logs
+  - gnome-tweaks
+  - file-roller
+
+- Delete all libreoffice packages
+  - libreoffice-*
+
+- Delete all gnome multimedia packages
+  - totem
+  - eog
+
+- Delete all gnome system packages
+  - network-manager-gnome
+  - gnome-system-monitor
+  - baobab
+  - gnome-disk-utility
+  - nautilus
+    
+
