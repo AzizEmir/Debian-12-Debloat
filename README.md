@@ -1,5 +1,5 @@
 # Improved-Debian-12-Debloat
-> Inspired from (Debian-12-Debñoat)[https://github.com/AzizEmir/Debian-12-Debloat] by the user [AzizEmir](https://github.com/AzizEmir)
+> Inspired from [Debian-12-Debloat](https://github.com/AzizEmir/Debian-12-Debloat) by the user [AzizEmir](https://github.com/AzizEmir)
 
 ## Remove all unnecesary GNOME packages installed by default
 
