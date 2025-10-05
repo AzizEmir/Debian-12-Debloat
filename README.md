@@ -6,11 +6,28 @@
 This Bash script is designed to remove specific software packages from a Debian-based Linux system. It targets a predefined list of packages associated with GNOME games and utilities. Additionally, it attempts to clean up residual dependencies after the removal process.
 
 ## Usage 
+
+## With Git
 ```shell
 git clone https://github.com/hugorsz-dev/Improved-Debian-12-Debloat.git
 cd Improved-Debian-12-Debloat
 sudo ./debian12debloat.sh
 ```
+
+## With Wget
+
+```shell
+wget https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/refs/heads/main/debian12debloat.sh 
+bash debian12debloat.sh
+```
+
+## With cURL
+
+```shell
+curl https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/refs/heads/main/debian12debloat.sh -o debian12debloat.sh
+bash debian12debloat.sh
+```
+
 ## Packages to remove
 
 **The user has the option of selecting the group of packages to uninstall from the following:**
