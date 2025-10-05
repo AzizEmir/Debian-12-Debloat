@@ -1,6 +1,11 @@
 # Improved-Debian-12-Debloat
 > Inspired by [Debian-12-Debloat](https://github.com/AzizEmir/Debian-12-Debloat) from [AzizEmir](https://github.com/AzizEmir)
 
+[![Script Type](https://img.shields.io/badge/Script%20language-Shell/Bash-green)](#)
+[![Made for](https://img.shields.io/badge/Made%20for-Debian%2012-red)](#) <img src='https://www.debian.org/logos/openlogo-nd.svg' width=15>
+[![License](https://img.shields.io/badge/License-GNU%20GPL%20v3-blue)](#)
+[![Status](https://img.shields.io/badge/Development-Active-brightgreen)](#)
+
 ## What does this script do?
 
 This Bash script is made to help you remove a bunch of GNOME packages that come preinstalled on Debian 12. It focuses on games, utilities, and some other stuff you might not want. After uninstalling, it also tries to clean up any leftover dependencies, so your system isn't left with junk.
