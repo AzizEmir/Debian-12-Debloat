@@ -8,22 +8,25 @@ This Bash script is designed to remove specific software packages from a Debian-
 ## Usage 
 
 ## With Git
-```shell
-git clone https://github.com/hugorsz-dev/Improved-Debian-12-Debloat.git
-cd Improved-Debian-12-Debloat
+```bash
+git clone https://github.com/AzizEmir/Debian-12-Debloat.git
+cd Debian-12-Debloat
 sudo ./debian12debloat.sh
 ```
+> [!note]
+> If Git credentials are prompted just press Enter.
+
 
 ## With Wget
 
-```shell
+```bash
 wget https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/refs/heads/main/debian12debloat.sh 
 bash debian12debloat.sh
 ```
 
 ## With cURL
 
-```shell
+```bash
 curl https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/refs/heads/main/debian12debloat.sh -o debian12debloat.sh
 bash debian12debloat.sh
 ```
@@ -74,6 +77,7 @@ bash debian12debloat.sh
   - shotwell
   - simple-scan
   - gnome-sound-recorder
+  - cheese
 
 - Delete all gnome bloat system packages
   - seahorse
