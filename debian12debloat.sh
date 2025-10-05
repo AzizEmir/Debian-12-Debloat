@@ -75,6 +75,7 @@ else
         shotwell
         simple-scan
         gnome-sound-recorder
+        cheese
     )
 
     packages_bloat_system=(
@@ -105,7 +106,7 @@ else
         nautilus
     )
 
-    package_libreoffice=(
+    packages_libreoffice=(
         libreoffice-*
     )
 
