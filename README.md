@@ -1,13 +1,16 @@
 # Improved-Debian-12-Debloat
-> Inspired from [Debian-12-Debloat](https://github.com/AzizEmir/Debian-12-Debloat) by the user [AzizEmir](https://github.com/AzizEmir)
+> Inspired by [Debian-12-Debloat](https://github.com/AzizEmir/Debian-12-Debloat) from [AzizEmir](https://github.com/AzizEmir)
 
-## Remove all unnecesary GNOME packages installed by default
+## What does this script do?
 
-This Bash script is designed to remove specific software packages from a Debian-based Linux system. It targets a predefined list of packages associated with GNOME games and utilities. Additionally, it attempts to clean up residual dependencies after the removal process.
+This Bash script is made to help you remove a bunch of GNOME packages that come preinstalled on Debian 12. It focuses on games, utilities, and some other stuff you might not want. After uninstalling, it also tries to clean up any leftover dependencies, so your system isn't left with junk.
 
-## Usage 
+## How to use this script
 
-## With Git
+### Using Git
+
+First, you need to clone the repo and run the script:
+
 ```bash
 git clone https://github.com/AzizEmir/Debian-12-Debloat.git
 cd Debian-12-Debloat
@@ -16,27 +19,29 @@ sudo ./debian12debloat.sh
 > [!note]
 > If Git credentials are prompted just press Enter.
 
+### Using Wget
 
-## With Wget
+If you don’t want to clone the whole repo, just grab the script directly:
 
 ```bash
 wget https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/refs/heads/main/debian12debloat.sh 
 bash debian12debloat.sh
 ```
 
-## With cURL
+### Using cURL
+
+Or, if you prefer cURL:
 
 ```bash
 curl https://raw.githubusercontent.com/AzizEmir/Debian-12-Debloat/refs/heads/main/debian12debloat.sh -o debian12debloat.sh
 bash debian12debloat.sh
 ```
 
-## Packages to remove
+## What packages does it remove?
 
-**The user has the option of selecting the group of packages to uninstall from the following:**
+**You can pick which group of packages you want to uninstall. Here’s the list:**
 
-
-- Delete all gnome games
+- Remove all GNOME games
   - gnome-2048
   - aisleriot
   - gnome-nibbles
@@ -100,3 +105,6 @@ bash debian12debloat.sh
   - nautilus
     
 
+---
+
+&copy; 2025 [AzizEmir](https://github.com/AzizEmir)
