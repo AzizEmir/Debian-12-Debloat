@@ -67,6 +67,7 @@ else
         gnome-calendar
         gnome-calculator
         gnome-contacts
+        thunderbird
     )
 
     packages_bloat_multimedia=(
@@ -90,12 +91,15 @@ else
         eog
     )
 
-    packages_system=(
-        network-manager-gnome
-        gnome-system-monitor
-        baobab
-        gnome-disk-utility
-        nautilus
+    packages_extra=(
+	fcitx5
+	goldendict-ng
+	hdate-applet
+	gnome-tour
+	anthy
+	anthy-common
+	xiterm+thai
+	mozc-*
     )
 
     packages_system=(
@@ -145,7 +149,12 @@ else
         remove_packages "${packages_multimedia[@]}"
     fi
     
-    read -p "Delete all gnome system packages? (NOT Recommended) [Y/n] " response
+    read -p "Delete all gnome system (extra) packages? (Recommended) [Y/n] " response
+    if [[ "$response" =~ ^[Yy]([Ee][Ss])?$ ]]; then
+        remove_packages "${packages_extra[@]}"
+    fi
+    
+    read -p "Delete all gnome system packages? (Recommended) [Y/n] " response
     if [[ "$response" =~ ^[Yy]([Ee][Ss])?$ ]]; then
         remove_packages "${packages_system[@]}"
     fi
